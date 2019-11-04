@@ -35,6 +35,7 @@
   padding: 15px;
   box-shadow: 5px 5px 20px 7px #888888;
   border-radius: 10px;
+  min-width: 100px;
 }
 
 .user-card {
@@ -48,12 +49,12 @@
 }
 
 .user-card img {
-  width: 100px;
+  width: 30%;
   border-radius: 50%;
 }
 
 .follower-card img {
-  width: 100px;
+  width: 70%;
   border-radius: 50%;
 }
 
