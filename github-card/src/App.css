@@ -20,3 +20,55 @@
 .App-link {
   color: #09d3ac;
 }
+
+.follower-card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.follower-card {
+  font-family: verdana;
+  width: 10%;
+  display: inline-block;
+  text-align: center;
+  margin: 30px;
+  padding: 15px;
+  box-shadow: 5px 5px 20px 7px #888888;
+  border-radius: 10px;
+}
+
+.user-card {
+  font-family: verdana;
+  padding: 1%;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 5px 5px 20px 7px #888888;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.user-card img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.follower-card img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: #888888;
+  font-size: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: #888888;
+  font-size: 1.3rem;
+}

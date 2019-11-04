@@ -24,7 +24,9 @@ componentDidMount() {
 render() {
   return (
     <>
+    <h1>Allie's GitHub Info</h1>
     <UserCard user={this.state.user} />
+    <h2>Followers:</h2>    
     <FollowersCard />
     </>
   )

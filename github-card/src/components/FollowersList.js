@@ -20,7 +20,7 @@ class FollowersList extends Component {
     }
 
 render() {
-    return <p>{this.state.followers.map(follower => <FollowerCard follower={follower} />)}</p>
+    return <div className="follower-card-wrapper">{this.state.followers.map(follower => <FollowerCard follower={follower} />)}</div>
 }
 
 }
