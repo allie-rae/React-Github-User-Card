@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import UserCard from './components/UserCard';
 import FollowersCard from './components/FollowersList';
+import { Typography } from '@material-ui/core';
 import './App.css';
 
 class App extends Component {
@@ -24,9 +25,10 @@ componentDidMount() {
 render() {
   return (
     <>
-    <h1>Allie's GitHub Info</h1>
+    <br />
+    <Typography align="center" variant="h2">Allie's GitHub Info</Typography>
     <UserCard user={this.state.user} />
-    <h2>Followers:</h2>    
+    <Typography align="center" variant="h4">Followers:</Typography>    
     <FollowersCard />
     </>
   )
